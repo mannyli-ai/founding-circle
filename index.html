@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>曼報種子會員招募</title>
+<meta name="description" content="曼報正在招募第一批 15–30 位種子會員，於 2026 年 11–12 月共同建立跨領域、重視深度交流的曼報 Pro Community。申請截止：10 月 11 日。">
+<meta property="og:title" content="曼報種子會員招募">
+<meta property="og:description" content="招募 15–30 位具真實工作經驗、願意分享具體案例與觀點的成員，共同建立曼報 Pro Community。">
+<meta property="og:type" content="website">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131211" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231f1d1a'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='%23f6f4ef' font-family='serif'%3E曼%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&display=swap">
+<style>
+  :root {
+    --bg: #f6f4ef;
+    --surface: #eeeae2;
+    --text: #1f1d1a;
+    --muted: #6a655c;
+    --rule: #d9d3c7;
+    --accent: #8a5a2b;
+    --btn-bg: #1f1d1a;
+    --btn-text: #f6f4ef;
+    --serif: "Noto Serif TC", "Songti TC", "PMingLiU", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #131211;
+      --surface: #1c1b19;
+      --text: #e7e3db;
+      --muted: #9b958a;
+      --rule: #34312c;
+      --accent: #d2a676;
+      --btn-bg: #e7e3db;
+      --btn-text: #131211;
+    }
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 1.0625rem;
+    line-height: 1.85;
+    letter-spacing: 0.02em;
+    -webkit-font-smoothing: antialiased;
+  }
+  @media (min-width: 768px) { body { font-size: 1.125rem; } }
+
+  main, footer {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+  }
+
+  a { color: var(--accent); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+  p { margin: 0 0 1.1em; }
+  strong { font-weight: 600; }
+
+  /* Hero */
+  .hero { padding: 4.5rem 0 3.5rem; border-bottom: 1px solid var(--rule); }
+  @media (min-width: 768px) { .hero { padding: 7rem 0 4.5rem; } }
+  .eyebrow {
+    margin: 0 0 1.5rem;
+    font-size: 0.8125rem;
+    letter-spacing: 0.18em;
+    color: var(--muted);
+  }
+  h1 {
+    margin: 0 0 1.75rem;
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: clamp(2rem, 7vw, 2.875rem);
+    line-height: 1.35;
+    letter-spacing: 0.04em;
+  }
+  .lede { font-size: 1.0625em; }
+
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem 1.5rem;
+    margin: 2.5rem 0;
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  @media (min-width: 640px) { .facts { grid-template-columns: repeat(4, auto); justify-content: space-between; } }
+  .facts div { margin: 0; }
+  .facts dt { font-size: 0.8125rem; color: var(--muted); letter-spacing: 0.08em; }
+  .facts dd { margin: 0.2rem 0 0; font-family: var(--serif); font-weight: 500; font-size: 1.0625rem; line-height: 1.5; }
+
+  .btn {
+    display: inline-block;
+    padding: 0.85rem 1.75rem;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    font-size: 0.975rem;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    border-radius: 2px;
+  }
+  .btn:hover { opacity: 0.85; }
+  .btn-note { display: block; margin-top: 0.9rem; font-size: 0.875rem; color: var(--muted); }
+
+  /* Sections */
+  section { padding: 3.5rem 0; border-bottom: 1px solid var(--rule); }
+  @media (min-width: 768px) { section { padding: 4.5rem 0; } }
+  .num {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-family: var(--serif);
+    font-size: 0.875rem;
+    color: var(--accent);
+    letter-spacing: 0.15em;
+  }
+  h2 {
+    margin: 0 0 1.75rem;
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: clamp(1.5rem, 5vw, 1.875rem);
+    line-height: 1.45;
+    letter-spacing: 0.04em;
+  }
+  h3 {
+    margin: 0 0 0.4rem;
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 1.125em;
+    line-height: 1.55;
+  }
+
+  .dash { list-style: none; margin: 0 0 1.25em; padding: 0; }
+  .dash li { position: relative; padding-left: 1.5em; margin-bottom: 0.6em; }
+  .dash li::before { content: "—"; position: absolute; left: 0; color: var(--muted); }
+
+  .note { color: var(--muted); font-size: 0.9375em; }
+
+  /* Benefits */
+  .benefits { list-style: none; margin: 0; padding: 0; counter-reset: b; }
+  .benefits li {
+    counter-increment: b;
+    display: grid;
+    grid-template-columns: 2.75rem 1fr;
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--rule);
+  }
+  .benefits li:first-child { border-top: 0; padding-top: 0; }
+  .benefits li::before {
+    content: counter(b, decimal-leading-zero);
+    font-family: var(--serif);
+    color: var(--accent);
+    font-size: 0.9375rem;
+    line-height: 2;
+  }
+  .benefits p { margin: 0; }
+
+  /* Culture */
+  .culture { margin: 0 0 1.75rem; }
+  .culture div { padding: 1.25rem 0; border-top: 1px solid var(--rule); }
+  .culture div:first-child { border-top: 0; padding-top: 0; }
+  .culture dt { font-family: var(--serif); font-weight: 700; font-size: 1.125em; }
+  .culture dt span { display: block; font-family: var(--sans); font-weight: 400; font-size: 0.8125rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+  .culture dd { margin: 0.4rem 0 0; }
+
+  /* Fee table */
+  .terms { margin: 0 0 2rem; background: var(--surface); padding: 0.5rem 1.25rem; border-radius: 2px; }
+  @media (min-width: 640px) { .terms { padding: 0.75rem 1.75rem; } }
+  .terms div { padding: 1rem 0; border-top: 1px solid var(--rule); }
+  .terms div:first-child { border-top: 0; }
+  @media (min-width: 640px) {
+    .terms div { display: grid; grid-template-columns: 8.5rem 1fr; gap: 1rem; }
+  }
+  .terms dt { color: var(--muted); font-size: 0.9375em; }
+  .terms dd { margin: 0; }
+  .terms dd small { display: block; margin-top: 0.35rem; font-size: 0.875rem; color: var(--muted); line-height: 1.7; }
+
+  .final { padding: 3.5rem 0 4rem; border-bottom: 0; text-align: left; }
+
+  footer {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    border-top: 1px solid var(--rule);
+    font-size: 0.8125rem;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <header class="hero">
+    <p class="eyebrow">曼報 PRO · 種子會員計畫</p>
+    <h1>曼報正在招募<br>第一批種子會員</h1>
+    <p class="lede">這不是大型聊天群組，也不是單向內容訂閱；我們希望找 15–30 位具真實工作經驗、願意分享具體案例與觀點的成員，與曼報共同建立一個跨領域、重視深度交流的 Community。</p>
+    <p>在兩個月的實驗中，我們將以每週策展式討論、商業解碼 LIVE、會員案例交流與 Community Dinner，測試曼報 Community 最有價值的互動方式。</p>
+
+    <dl class="facts">
+      <div><dt>實驗期間</dt><dd>2026.11.01–12.31</dd></div>
+      <div><dt>參與費用</dt><dd>NT$3,600</dd></div>
+      <div><dt>預計錄取</dt><dd>15–30 位</dd></div>
+      <div><dt>申請截止</dt><dd>10 月 11 日</dd></div>
+    </dl>
+
+    <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSegIi36d-E9dDDHtrrHqZMMibHNvBHvH83k2LngpteQ_6aNoA/viewform" target="_blank" rel="noopener">申請成為種子會員</a>
+  </header>
+
+  <section>
+    <span class="num">01</span>
+    <h2>這個 Circle 是什麼？</h2>
+    <p>曼報擅長篩選值得知道的資訊；種子會員 Circle 希望讓會員遇見原本不容易認識、但值得交流的人與觀點。</p>
+    <p>我們不追求訊息量或熱鬧，而是透過有脈絡的問題、真實經驗與跨領域視角，讓每一次參與都能帶來新的理解、刺激或下一步。</p>
+  </section>
+
+  <section>
+    <span class="num">02</span>
+    <h2>適合什麼樣的人？</h2>
+    <p>我們優先尋找：</p>
+    <ul class="dash">
+      <li>具真實產業或職能經驗的人。</li>
+      <li>願意分享具體案例、決策、挑戰或失敗，而不只提供抽象意見的人。</li>
+      <li>對不同產業、職能與觀點抱持好奇心的人。</li>
+      <li>近期有值得與其他有經驗者一起思考的工作、職涯或商業問題的人。</li>
+      <li>願意在合理範圍內回應他人，也願意接受不同觀點的人。</li>
+      <li>不以銷售、招募或自我宣傳為主要目的的人。</li>
+    </ul>
+    <p class="note">最終錄取不只看個人經歷，也會考量整體成員在產業、職能、年資與觀點上的多元性。</p>
+  </section>
+
+  <section>
+    <span class="num">03</span>
+    <h2>你可以得到什麼？</h2>
+    <ol class="benefits">
+      <li>
+        <div>
+          <h3>加入限額、經篩選的種子會員 Circle</h3>
+          <p>認識具不同產業、職能與專業背景的會員，成為第一批共同建立曼報 Community 的核心成員。</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>每週策展式討論與跨領域觀點交流</h3>
+          <p>以具體的商業、職涯與產業問題為起點，與具實務經驗的會員交換觀點、案例與解法。</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>專屬成員名錄與 Expertise Map</h3>
+          <p>透過會員自願公開的專業背景、經驗與關注議題，更容易理解 Circle 中有哪些人、哪些經驗值得交流。</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>參與商業解碼 LIVE 的優先機會</h3>
+          <p>種子會員可優先提交問題。若你的經驗與當月主題契合，也可能受邀以案例分享者或 Panelist 身分參與 LIVE，與 Vincent 及其他會員共同討論。</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>種子會員身分與共創機會</h3>
+          <p>成為首批參與並共同優化曼報 Pro Community 的會員，提供早期產品回饋，並影響未來的內容、活動與社群設計。</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Community Dinner</h3>
+          <p>實驗結束後，受邀參加一場僅限種子會員的 Community Dinner，預計於台北舉辦，與 Manny、Vincent 及其他種子會員在較輕鬆的場域交流。</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <span class="num">04</span>
+    <h2>我們期待你的參與方式</h2>
+    <p>我們期待種子會員在兩個月實驗期間：</p>
+    <ul class="dash">
+      <li>每週至少一次有意義的文字參與，例如回覆、追問或補充。</li>
+      <li>在自己真正有經驗的議題上分享觀點。</li>
+      <li>每月主動貢獻一次，例如提出問題、分享案例或完整觀點。</li>
+      <li>需參加實驗期間的商業解碼 LIVE Event。</li>
+      <li>完成中期與期末回饋。</li>
+    </ul>
+  </section>
+
+  <section>
+    <span class="num">05</span>
+    <h2>曼報 Pro 社群核心文化</h2>
+    <dl class="culture">
+      <div>
+        <dt><span>Stay Curious</span>好奇</dt>
+        <dd>願意理解不同產業與不同立場，而不是急著證明自己是對的。</dd>
+      </div>
+      <div>
+        <dt><span>Willingness to Share</span>願意分享</dt>
+        <dd>願意在合理範圍內分享真實經驗、方法與失敗，而非只索取答案。</dd>
+      </div>
+      <div>
+        <dt><span>Respect</span>尊重與可信任</dt>
+        <dd>尊重差異、保護非公開分享，不把他人的經驗任意公開轉述。</dd>
+      </div>
+    </dl>
+    <p class="note">我們不希望這個 Circle 變成以銷售、招募、大量自我宣傳或無脈絡閒聊為主的地方。</p>
+  </section>
+
+  <section>
+    <span class="num">06</span>
+    <h2>費用與申請方式</h2>
+    <p>種子會員為曼報 Pro 會員專屬的限時限額付費社群實驗。</p>
+    <dl class="terms">
+      <div><dt>實驗期間</dt><dd>2026 年 11 月 1 日－2026 年 12 月 31 日</dd></div>
+      <div>
+        <dt>參與費用</dt>
+        <dd>NT$3,600／兩個月
+          <small>費用包含一場由 Manny、Vincent 親自參與的種子會員限定 Community Dinner，讓成員有機會面對面深度交流（每位餐費超過 NT$1,000）。</small>
+        </dd>
+      </div>
+      <div><dt>預計錄取名額</dt><dd>15–30 位</dd></div>
+      <div><dt>申請截止</dt><dd>10 月 11 日</dd></div>
+    </dl>
+    <p>提交申請後，曼報團隊將依申請內容進行初步篩選，並邀請部分候選人進行 20–30 分鐘的 1:1 interview。由於申請人數可能較多，未進入下一階段者將不另行通知。錄取者將於收到通知後完成付款與 onboarding。</p>
+  </section>
+
+  <section class="final">
+    <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSegIi36d-E9dDDHtrrHqZMMibHNvBHvH83k2LngpteQ_6aNoA/viewform" target="_blank" rel="noopener">申請成為種子會員</a>
+    <span class="btn-note">申請截止：10 月 11 日</span>
+  </section>
+
+</main>
+<footer>曼報 Pro · 種子會員計畫 2026</footer>
+</body>
+</html>
